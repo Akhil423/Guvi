@@ -9,5 +9,5 @@ int c=s.length();
 while(c--){
 s1+=s.at(c)
 }
-
+return 0;
 }
