@@ -8,7 +8,7 @@ cin>>s;
 int c=s.length();
   if(c>=1){
 while(c--){
-  if(s.at(1)=='-'){
+  if(c==0 && s.at(c)=='-'){
   break;
   }
     
