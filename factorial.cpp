@@ -1,20 +1,20 @@
-// factorial of a number 
+// factorial of a number akki
 
 #include<iostream>
 
 using namespace std;
 
-int fact=1;
 int facto(int fac){
   
-  if(fac<=1){
-  return fact;
-  }
-  fact=fact*facto(fac-1);
-  return 0;
+  if(fac==1 || fac==0)
+  return 1;
+  
+  return fac*facto(fac-1);
+ 
 }
 
-int main(){
+int main( void ){
+  
     int num;
     cout<<"enter no for factorial"<<endl;
     cin>>num;
