@@ -16,8 +16,12 @@ int facto(int fac){
 int main( void ){
   
     int num;
-    cout<<"enter no for factorial"<<endl;
+    cout<<"enter no in between 0 t0 12 for factorial"<<endl;
     cin>>num;
+  
+      if(num<0 || num>12)
+        cout<<"please satisfy the above condition mentioned!";
+      else
     int res=facto(num);
     cout<<res;
     
