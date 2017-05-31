@@ -8,7 +8,7 @@ int main(){
   string s;
   getline(cin,s);
   string::size_type rev;
-  int i=stoi(s,&rev)
+  int i=stoi(s,&rev);
   cout<<i;
   
     return 0;
