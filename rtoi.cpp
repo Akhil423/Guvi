@@ -50,4 +50,6 @@ int main(void){
     geline(cin,s);
     int out=rmnum(s);
     cout<<"the value of roman"<<s<<"is:"<<out;
+      
+      return 0;
 }
